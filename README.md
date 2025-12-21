@@ -40,12 +40,16 @@ It was then discovered that companies like Cessna have high survival rate due to
  By combining the first two findings, the top 10 specific airplane models could be found.
 The filtered twin-engine models were sorted by the highest survival rate with a minimum accident count to ensure statistical reliability.
 The statistical methods used to perform the data analysis were;
-1. Aggregation- which turned individual accidents into manufacture-level statistics using 
+
+I) Aggregation- which turned individual accidents into manufacture-level statistics using 
                               .groupby() and .agg() .
-2. Feature Adding- creating a new column(Total.Injuries) by summing injured and
+                              
+II) Feature Adding- creating a new column(Total.Injuries) by summing injured and
                                   uninjured counts.
-3. Data Standardization- which ensured that data with mixed cases were treated 
+                                  
+III) Data Standardization- which ensured that data with mixed cases were treated 
                                            equally using .str.upper()
+
 
 #RECOMMENDATIONS
 
